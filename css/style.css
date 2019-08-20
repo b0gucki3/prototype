@@ -1,4 +1,9 @@
 body {
-  background-color: azure; }
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 100vh;
+  place-items: center; }
 
 /*# sourceMappingURL=style.css.map */
