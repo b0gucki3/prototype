@@ -7,7 +7,8 @@ body {
   height: 100vh;
   place-items: center;
   max-width: 500px;
-  background: -webkit-linear-gradient(black, grey); }
+  background: -webkit-linear-gradient(black, grey);
+  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=ccccccff&noise=333333&density=48&opacity=14); }
 
 span {
   font-size: 100px;
@@ -23,7 +24,6 @@ span {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
   position: relative; }
-  d
   span:hover {
     -webkit-transform: rotate(20deg);
             transform: rotate(20deg); }
