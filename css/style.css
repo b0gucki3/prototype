@@ -23,10 +23,9 @@ span {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  position: relative; }
-  span:hover {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg); }
+  position: relative;
+  background-color: #565656;
+  color: transparent; }
   span:after {
     content: "•";
     position: absolute;

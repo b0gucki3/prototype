@@ -1,3 +1,6 @@
+//todo flash animation
+//todo turned off light
+
 body {
     margin: 0;
     display: grid;
@@ -16,6 +19,9 @@ span{
     line-height: 50px;
     color: red;
     shadow: 2px 2px 8px rgba(50,50,93,.25);
+
+    //text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+
     background: -webkit-linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -23,10 +29,15 @@ span{
     text-shadow: 2px 2px 8px rgba(50,50,93,.25);
     transition: transform 0.3s;
     position: relative;
-    
+
+
+    background-color: #565656;
+    color: transparent;
+
+
 
     &:hover{
-        transform: rotate(20deg);
+        //transform: rotate(20deg);
 
         //transform: translate(-50%,-50%) translate(40px,40px) perspective(2910px) rotateY(-30deg) rotateX(9deg) rotate(5deg);
     }
@@ -43,14 +54,13 @@ span{
         -webkit-text-fill-color: transparent;
 
         opacity: 0.75;
-        
-        
+
+
 
         //animation:         NAME-YOUR-ANIMATION 5s infinite; //demanding alright
 
     }
 }
-
 
 @keyframes NAME-YOUR-ANIMATION {
     0%   { //opacity: 0;
