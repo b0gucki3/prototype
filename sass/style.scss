@@ -7,13 +7,14 @@ body {
     place-items: center;
 
     max-width: 500px;
+    background: -webkit-linear-gradient(black, grey);
 }
 
 span{
     font-size: 100px;
     line-height: 50px;
     color: red;
-
+    shadow: 2px 2px 8px rgba(50,50,93,.25);
     background: -webkit-linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -21,6 +22,7 @@ span{
     text-shadow: 2px 2px 8px rgba(50,50,93,.25);
     transition: transform 0.3s;
     position: relative;
+    d
 
     &:hover{
         transform: rotate(20deg);
@@ -40,5 +42,18 @@ span{
         -webkit-text-fill-color: transparent;
 
         opacity: 0.75;
+        
+        //animation:         NAME-YOUR-ANIMATION 5s infinite; //demanding alright
+
     }
+}
+
+
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { //opacity: 0;
+  left: 15px;
+  }
+  100% { 
+  
+  left: 10px;}
 }
